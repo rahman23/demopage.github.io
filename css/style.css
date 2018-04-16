@@ -1,0 +1,272 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+img{
+    width:100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.container{
+    margin:auto;
+}
+
+
+.colored{
+    color:#56a79a;
+    font-weight: 800;
+}
+
+i{
+    color:#56a79a;
+}
+
+/* HEADER */
+#heady{
+    border-bottom:1px solid #56a79a;
+}
+
+#heady h1{
+    font-size:2.5em;
+
+}
+/* navigation */
+#navbar{
+    text-transform:uppercase;
+}
+
+#navbar li{
+    display:inline;
+    padding-right:7px;
+    list-style:none;
+}
+
+#navbar a{
+    font-size:1.3em;
+    text-decoration:none;
+    color:#888;
+}
+
+#navbar li.current a, #navbar a:hover{
+    color:#56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom:3px;
+}
+
+/* subheader */
+
+#subheader{
+    background-color:#56a79a;
+    font-size:1.2em;
+    margin-bottom:30px;
+
+}
+
+/* SHOWCASE */
+#showcase{
+    background:url('../img/p2.jpeg') no-repeat center center;
+    position:relative;
+    background-size: cover;
+    border-bottom:1px solid #56a79a;
+    margin-bottom:30px;
+    background-attachment: fixed;
+}
+
+#showcase .row{
+    height:600px;
+}
+
+#showcase h2{
+    font-size:2.5em;
+    margin:0;
+
+}
+
+#showcase p{
+    color:#fff;
+    font-size:1em;
+    margin:0;
+}
+
+#showcase .backy{
+    background:rgb(128,128,128,0.6);
+    color:#fff;
+    border-radius:50px;
+    padding:10px;
+    max-width: 600px;
+    opacity:0.9;
+}
+
+@media only screen and (max-width: 400px) {
+    #showcase .backy{
+        background: rgba(128, 128, 128, 0);
+        color:dimgrey;
+    }
+
+    #showcase p{
+        color:dimgrey;
+        font-size:1em;
+        margin:0;
+    }
+}
+
+/* FEATURES */
+#attributes h1{
+    font-size:35px;
+    margin:0;
+    padding-bottom:10px;
+}
+
+#attributes p{
+    color:#888;
+    margin:0;
+    margin-bottom:40px;
+}
+
+#attributes .fa{
+    font-size:60px;
+    color:#56a79a;
+}
+
+/* News */
+#news{
+    background:rgb(229,219,220,0.4);
+
+}
+
+#news h2{
+    font-size:35px;
+    color:dimgray;
+    margin:0;
+    padding-bottom:10px;
+}
+
+#news ul{
+
+    padding:0;
+}
+
+#news li{
+    margin-left:150px;
+    display:table;
+    list-style-type: none;
+    line-height:2em;
+    font-size:20px;
+}
+
+/* details */
+#details{
+    background-color:dimgray;
+    color:#fff;
+    padding:10px 0;
+
+
+}
+
+#details h4{
+    text-transform:uppercase;
+    margin-bottom:2px;
+}
+#details p{
+
+    margin:0;
+}
+
+
+#details input[type="text"]{
+    padding:7px;
+}
+
+#details button{
+    background:#3e3c3c;
+    color:#fff;
+    padding:9px;
+    border:0;
+}
+
+#details button:hover{
+    background:#252525;
+
+}
+
+
+@media only screen and (max-width: 400px) {
+    #details{
+    padding-left:10px;
+}
+}
+
+/* FOOTER */
+#footer{
+    background:#56a79a;
+    color:#fff;
+}
+
+
+
+
+
+
+/* PAGE */
+#page{
+    margin-bottom:40px;
+}
+#page h1{
+
+    font-size:2.5em;
+    margin:5px;
+}
+#page li{
+    list-style-type: none;
+
+}
+
+#page p{
+    font-size:1em;
+    margin:0;
+}
+
+.contact p{
+    font-size:1.4em !important;
+    margin:0;
+}
+
+/* CONTACT */
+.contact form{
+    background:#333;
+    color:white;
+    padding-top:25px;
+    padding-bottom:25px;  
+
+}
+
+.contact form input[type="text"]{
+    width:50%;
+    height:30px;
+    margin-bottom:10px;
+}
+
+.contact form textarea{
+    width:50%;
+    height:100px;
+}
+
+.contact form button{
+
+    color:white;
+    background-color:darkslategray;
+    border:0;
+    padding:5px 10px;
+
+
+}
+
+.contact form label{
+    text-transform:uppercase;
+}
+
+
+
