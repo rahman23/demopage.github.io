@@ -87,8 +87,8 @@ i{
 
 #showcase p{
     color:#fff;
-    font-size:1em;
-    margin:0;
+    font-size:1.4em;
+  
 }
 
 #showcase .backy{
@@ -108,7 +108,7 @@ i{
 
     #showcase p{
         color:dimgrey;
-        font-size:1em;
+        font-size:1.4em;
         margin:0;
     }
 }
