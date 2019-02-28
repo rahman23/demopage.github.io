@@ -251,7 +251,7 @@ i{
 
 .contact form textarea{
     width:50%;
-    height:100px;
+    height:30vh;
 }
 
 .contact form button{
@@ -266,6 +266,7 @@ i{
 
 .contact form label{
     text-transform:uppercase;
+    font-size:1rem;
 }
 
 
